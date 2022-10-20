@@ -1,6 +1,6 @@
 /**/
     #minuteStr {
-        color: black;
+        color: rgb(253, 0, 0);
         font-size: 20px;
         text-align: left;
         position:absolute; top:210px; 
@@ -45,19 +45,19 @@
     
     #btnA {
         font-size: 20px;
-        position:absolute; top:380px; left:2%; width:43%; height:60px; 
+        position:absolute; top:380px; left:2%; width:20%; height:60px; 
         color:green ;
         background-color: yellow;
     }
     
     #btnB {
         font-size: 20px;
-        position:absolute; top:380px; left:45%; width:25%; height:60px; 
+        position:absolute; top:380px; left:45%; width:30%; height:60px; 
     }
 
     #btnC {
         font-size: 20px;
-        position:absolute; top:380px; left:70%; width:28%; height:60px; 
+        position:absolute; top:380px; left:70%; width:30%; height:60px; 
     }
     
     #minute {
