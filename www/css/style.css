@@ -73,11 +73,11 @@
     input[type=number] {text-align: right;}
 
     body{
-        background-color: skyblue;
+        background-color: rgb(255, 255, 226);
     }
 
     button{
-        color: blue;
+        color: rgb(116, 116, 119);
         font-family: 'Times New Roman', Times, serif;
         border-radius: 20px;
     }
