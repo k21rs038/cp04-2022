@@ -40,6 +40,9 @@
             $('#btnC').click(function(e) {
                 btnCClick(e);
             });
+             $('#btnD').click(function(e) {
+                btnCClick(e);
+            });
             init();
         });
 
@@ -165,6 +168,7 @@
             $('#btnA').prop('disabled', false);
             $('#btnB').prop('disabled', false);
             $('#btnC').prop('disabled', false);
+            $('#btnD').prop('disabled', false);
 
         }
 
@@ -173,7 +177,7 @@
             var canvas = $("#mycanvas")[0];
             var ctx = canvas.getContext("2d");
             var img = new Image();
-            img.src = "ksuisbg.gif";
+            img.src = "tokei.png";
             img.onload = function() {
                 ctx.drawImage(img, 0, 0, 300, 300);
             };
@@ -227,7 +231,7 @@
 </head>
 
 <body>
-    <canvas id="mycanvas" width="500" height="500">Test</canvas>
+    <canvas id="mycanvas" width="370" height="370">Test</canvas>
 
     <div id="minuteStr">〇</div>
     <div id="secondStr">〇</div>
