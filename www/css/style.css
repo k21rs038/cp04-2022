@@ -77,16 +77,16 @@
      #go {
         font-size: 60px;
         position:absolute; top:700px; left:70px; width:80px; height:40px;   
-        display: none;
+        
     }
+    
   
     
     input[type=number] {text-align: right;}
 
     body{
         background-color: rgb(255, 255, 226);
-        background-image: url(miti2.jpg);
-        background-origin: border-box;
+        
      
     }
 
