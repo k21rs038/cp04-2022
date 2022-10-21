@@ -58,7 +58,7 @@
     #btnC {
         font-size: 20px;
         position:absolute; top:600px; left:70%; width:30%; height:60px; 
-         background-color: rgb(252, 98, 98);ow;
+         background-color: rgb(252, 98, 98);
     }
     #btnD {
         font-size: 20px;
@@ -74,12 +74,19 @@
         font-size: 30px;
         position:absolute; top:540px; left:210px; width:80px; height:40px;   
     }
+     #go {
+        font-size: 60px;
+        position:absolute; top:700px; left:70px; width:80px; height:40px;   
+        display: none;
+    }
+  
     
     input[type=number] {text-align: right;}
 
     body{
         background-color: rgb(255, 255, 226);
-        background-image: url(ksuisbg.gif);
+        background-image: url(miti2.jpg);
+        background-origin: border-box;
      
     }
 

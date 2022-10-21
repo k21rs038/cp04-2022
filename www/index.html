@@ -211,6 +211,14 @@
         }
           // ButtonDがクリックされた時の処理
         function btnDClick(e) {
+            alarm();
+            active = false;
+                 period = 60 * parseInt($("#minute").val()) + parseInt($("#second").val());
+            $("#time").html("経過時間： 0");
+            $("#remain").html("経過時間 " + period);
+
+           
+          
           
         }
 
@@ -242,13 +250,18 @@
 
     <div id="remain">Remaining time</div>
     <div id="time">Time</div>
+    <div id="go">Let'go</div>
     <button id="btnA">Start</button>
     <button id="btnB">Stop</button>
     <button id="btnC">Set</button>
     <button id="btnD">(^Д^)</button>
+
     <input type="number" id="minute" value=1>
     <input type="number" id="second" value=30>
-   
+
+
+
+
     
 </body>
 
